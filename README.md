@@ -48,3 +48,14 @@ else
  fi
 ~
 ```
+
+
+
+
+
+## Problem 5
+
+``bash
+filePath='number.txt'
+awk '{s+=$1} END {print s}' $filePath
+```
